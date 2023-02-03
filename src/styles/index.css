@@ -1,4 +1,27 @@
+.container {
+    display: flex; /* or inline-flex */
+    justify-content:center;
+    width: fit-content;
+    min-width: 100%;
+    padding-top: 30vh;
+  }
 
+.card {
+    background-color: rgb(255, 255, 255);
+    min-width: 15vh;
+    min-height:25vh;
+    border-width: 3px;
+    border-color: black;
+    margin:10px;
+  }
+
+.icon {
+    margin:auto;
+    max-width: 80%;
+    font-size: 600%;
+    position:relative;
+    text-align: center;
+}
 /* 
 
     You can write your own styles here...
